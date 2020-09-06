@@ -1,6 +1,7 @@
 # easy-pdk-mini
 
 Easy PDK mini is the programmer hardware variant originated from
+**WARNING: This design was not tested yet! Use only on your own risk!**
 [easy-pdk-programmer-hardware](https://github.com/free-pdk/easy-pdk-programmer-hardware) project.
 
 ![render](img/render.png)
