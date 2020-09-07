@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "easypdkprog-lite-handsolder"
+Title "easy-pdk-mini"
 Date "2020-09-06"
 Rev "2"
 Comp "Vladislav Nikonov aka pacmancoder"
 Comment1 "pacmancoder.xyz"
 Comment2 "Original hardware: https://github.com/free-pdk/easy-pdk-programmer-hardware"
 Comment3 "Based on easypdkprog-lite version of tim_ EEVBlog user"
-Comment4 ""
+Comment4 "https://github.com/pacmancoder/easy-pdk-mini"
 $EndDescr
 $Comp
 L Connector_Generic:Conn_01x08 J3
@@ -1051,17 +1051,15 @@ Wire Wire Line
 	5100 7200 5200 7200
 Wire Wire Line
 	5100 7150 5100 7200
-Wire Wire Line
-	5500 6550 5600 6550
 $Comp
 L power:+5V #PWR0123
 U 1 1 5F570F25
-P 5600 6250
-F 0 "#PWR0123" H 5600 6100 50  0001 C CNN
-F 1 "+5V" H 5615 6423 50  0000 C CNN
-F 2 "" H 5600 6250 50  0001 C CNN
-F 3 "" H 5600 6250 50  0001 C CNN
-	1    5600 6250
+P 6600 6350
+F 0 "#PWR0123" H 6600 6200 50  0001 C CNN
+F 1 "+5V" H 6615 6523 50  0000 C CNN
+F 2 "" H 6600 6350 50  0001 C CNN
+F 3 "" H 6600 6350 50  0001 C CNN
+	1    6600 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1695,8 +1693,6 @@ Connection ~ 4200 1200
 Wire Wire Line
 	4200 1200 4200 1250
 Wire Wire Line
-	5600 6250 5600 6550
-Wire Wire Line
 	6600 1150 6600 1300
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -1787,4 +1783,21 @@ Wire Wire Line
 	5200 5150 5200 5100
 Wire Wire Line
 	5200 4650 5200 4800
+$Comp
+L Device:Polyfuse F1
+U 1 1 5F5CC5BA
+P 5950 6550
+F 0 "F1" V 5725 6550 50  0000 C CNN
+F 1 "PTC 0.5A 6V" V 5816 6550 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 6350 50  0001 L CNN
+F 3 "~" H 5950 6550 50  0001 C CNN
+	1    5950 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 6550 5800 6550
+Wire Wire Line
+	6100 6550 6600 6550
+Wire Wire Line
+	6600 6550 6600 6350
 $EndSCHEMATC

@@ -25,7 +25,8 @@ included in the embedded driver"*
 - Replaced boot button with simple jumper
 - Replaced 47uF boost converter output capacitor with two 22uF caps to simplify process of finding
 components (In my city I was not able to find 47uF 16v, while it was easy to find 22uF 25V)
-- Added pull-down resistor for PB8 to make programmer detect as "lite" hardware 
+- Added pull-down resistor for PB8 to make programmer detect as "lite" hardware
+- Added 500mA 6v PTC fuse
 
 ### Schematics
 ![schematics](img/schematics.png)
