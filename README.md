@@ -11,6 +11,9 @@ Schematics was simplified and the "lite" version of the programmer by *tim_* was
 this project, so in difference with the original hardware, this version works without MOSFET boost
 converter enable switch and negative voltage charge pump for the opamp.
 
+
+*Interactive BOM:* [link](http://blog.pacmancoder.xyz/easy-pdk-mini/)
+
 ### Hand soldering
 All passives have at least 0805 size, and the mini-USB port was used instead of micro-USB, so it
 should be relatively easy to solder this programmer by the hand. The only quirky parts which may be
@@ -27,6 +30,7 @@ included in the embedded driver"*
 components (In my city I was not able to find 47uF 16v, while it was easy to find 22uF 25V)
 - Added pull-down resistor for PB8 to make programmer detect as "lite" hardware
 - Added 500mA 6v PTC fuse
+
 
 ### Schematics
 ![schematics](img/schematics.png)
