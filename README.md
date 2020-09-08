@@ -12,7 +12,7 @@ this project, so in difference with the original hardware, this version works wi
 converter enable switch and negative voltage charge pump for the opamp.
 
 
-*Interactive BOM:* [link](http://blog.pacmancoder.xyz/easy-pdk-mini/)
+*Interactive BOM:* [link](https://pacmancoder.github.io/easy-pdk-mini/)
 
 ### Hand soldering
 All passives have at least 0805 size, and the mini-USB port was used instead of micro-USB, so it
