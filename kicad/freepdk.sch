@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "easy-pdk-mini"
 Date "2020-09-06"
-Rev "2"
+Rev "3"
 Comp "Vladislav Nikonov aka pacmancoder"
 Comment1 "pacmancoder.xyz"
 Comment2 "Original hardware: https://github.com/free-pdk/easy-pdk-programmer-hardware"
@@ -207,7 +207,7 @@ L Device:LED D2
 U 1 1 5F1EAC49
 P 7600 2800
 F 0 "D2" V 7639 2683 50  0000 R CNN
-F 1 "LED1" V 7548 2683 50  0000 R CNN
+F 1 "LED" V 7548 2683 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 2800 50  0001 C CNN
 F 3 "~" H 7600 2800 50  0001 C CNN
 	1    7600 2800
@@ -218,7 +218,7 @@ L Device:LED D3
 U 1 1 5F1EB1D1
 P 7950 2800
 F 0 "D3" V 7989 2683 50  0000 R CNN
-F 1 "LED2" V 7898 2683 50  0000 R CNN
+F 1 "LED" V 7898 2683 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7950 2800 50  0001 C CNN
 F 3 "~" H 7950 2800 50  0001 C CNN
 	1    7950 2800
@@ -229,7 +229,7 @@ L Device:LED D4
 U 1 1 5F1EC2DD
 P 8300 2800
 F 0 "D4" V 8339 2683 50  0000 R CNN
-F 1 "LED3" V 8248 2683 50  0000 R CNN
+F 1 "LED" V 8248 2683 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8300 2800 50  0001 C CNN
 F 3 "~" H 8300 2800 50  0001 C CNN
 	1    8300 2800
