@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "easy-pdk-mini"
-Date "2020-09-06"
-Rev "4"
+Date "2020-09-19"
+Rev "5"
 Comp "Vladislav Nikonov aka pacmancoder"
 Comment1 "pacmancoder.xyz"
 Comment2 "Original hardware: https://github.com/free-pdk/easy-pdk-programmer-hardware"
@@ -1181,23 +1181,23 @@ $Comp
 L Amplifier_Operational:LM358 U4
 U 1 1 5F7D7408
 P 3500 3900
-F 0 "U4" H 3750 4200 50  0000 C CNN
-F 1 "LM358DR2G" H 3800 4100 50  0000 C CNN
+F 0 "U4" H 3750 3550 50  0000 C CNN
+F 1 "LM358DR2G" H 3600 3450 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3500 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3500 3900 50  0001 C CNN
 	1    3500 3900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:LM358 U4
 U 2 1 5F7D92C5
 P 3450 5150
-F 0 "U4" H 3700 5450 50  0000 C CNN
-F 1 "LM358DR2G" H 3750 5350 50  0000 C CNN
+F 0 "U4" H 3700 4800 50  0000 C CNN
+F 1 "LM358DR2G" H 3550 4700 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3450 5150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3450 5150 50  0001 C CNN
 	2    3450 5150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:LM358 U4
