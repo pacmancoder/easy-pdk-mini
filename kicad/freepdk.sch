@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "easy-pdk-mini"
-Date "2020-09-19"
-Rev "5"
+Date "2020-09-23"
+Rev "1.1.0"
 Comp "Vladislav Nikonov aka pacmancoder"
 Comment1 "pacmancoder.xyz"
 Comment2 "Original hardware: https://github.com/free-pdk/easy-pdk-programmer-hardware"
@@ -271,17 +271,6 @@ F 3 "" H 7950 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7950 2050 7950 2150
-$Comp
-L Device:Crystal Y1
-U 1 1 5F1F422C
-P 9200 2700
-F 0 "Y1" H 9200 2432 50  0000 C CNN
-F 1 "8MHz" H 9200 2523 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD" H 9200 2700 50  0001 C CNN
-F 3 "~" H 9200 2700 50  0001 C CNN
-	1    9200 2700
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:C C9
 U 1 1 5F1F4F6F
@@ -1043,7 +1032,6 @@ F 3 "" H 1350 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1350 2100 1350 1750
-NoConn ~ 5500 6950
 Wire Wire Line
 	5200 7200 5200 7150
 Connection ~ 5200 7200
@@ -1073,17 +1061,6 @@ F 1 "GND" H 5205 7077 50  0000 C CNN
 F 2 "" H 5200 7250 50  0001 C CNN
 F 3 "" H 5200 7250 50  0001 C CNN
 	1    5200 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_B_Mini J1
-U 1 1 5F56BF1B
-P 5200 6750
-F 0 "J1" H 5257 7217 50  0000 C CNN
-F 1 "MiniUSB" H 5257 7126 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 5350 6700 50  0001 C CNN
-F 3 "~" H 5350 6700 50  0001 C CNN
-	1    5200 6750
 	1    0    0    -1  
 $EndComp
 Connection ~ 6600 1300
@@ -1800,4 +1777,26 @@ Wire Wire Line
 	6100 6550 6600 6550
 Wire Wire Line
 	6600 6550 6600 6350
+$Comp
+L Connector:USB_B J1
+U 1 1 5F6E3453
+P 5200 6750
+F 0 "J1" H 5257 7217 50  0000 C CNN
+F 1 "USB_B" H 5257 7126 50  0000 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 5350 6700 50  0001 C CNN
+F 3 " ~" H 5350 6700 50  0001 C CNN
+	1    5200 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 5F1F422C
+P 9200 2700
+F 0 "Y1" H 9200 2432 50  0000 C CNN
+F 1 "8MHz" H 9200 2523 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD" H 9200 2700 50  0001 C CNN
+F 3 "~" H 9200 2700 50  0001 C CNN
+	1    9200 2700
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

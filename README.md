@@ -3,8 +3,6 @@
 Easy PDK mini is the programmer hardware variant originated from
 [easy-pdk-programmer-hardware](https://github.com/free-pdk/easy-pdk-programmer-hardware) project.
 
-**WARNING: This design was not tested yet! Use only on your own risk!**
-
 ![render](img/render.png)
 
 Schematics was simplified and the "lite" version of the programmer by *tim_* was used as a base for
@@ -12,12 +10,14 @@ this project, so in difference with the original hardware, this version works wi
 converter enable switch and negative voltage charge pump for the opamp.
 
 
+
+
 *Interactive BOM:* [link](https://pacmancoder.github.io/easy-pdk-mini/)
 
 ### Hand soldering
-All passives have at least 0805 size, and the mini-USB port was used instead of micro-USB, so it
-should be relatively easy to solder this programmer by the hand. The only quirky parts which may be
-hard to solder is STM32 MCU and MT3608 boost converter so be sure to solder them first. 
+All passives have at least 0805 size, and the USB-B port was used instead of micro-USB, so it
+should be easy to solder this programmer by the hand. The only quirky parts which may be
+hard to solder is STM32 MCU and MT3608 boost converter. 
 
 ### Changes
 Although existing "lite" version of easy-pdk-programmer (which was used as a reference for this
