@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "easy-pdk-mini"
 Date "2020-09-23"
-Rev "1.1.0"
+Rev "1.1.1"
 Comp "Vladislav Nikonov aka pacmancoder"
 Comment1 "pacmancoder.xyz"
 Comment2 "Original hardware: https://github.com/free-pdk/easy-pdk-programmer-hardware"
